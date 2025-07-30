@@ -1,0 +1,11 @@
+site_name: 清小搭技术团队
+theme:
+  name: material
+nav:
+  - 首页: index.md
+  - 架构解析:
+      - 系统总览: arch/overview.md
+      - RAG 架构: arch/rag.md
+      - 多模态输入: arch/multimodal.md
+      - 推理引擎优化: arch/inference.md
+  - FAQ: faq.md
