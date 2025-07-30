@@ -3,9 +3,12 @@ theme:
   name: material
 nav:
   - 首页: index.md
-  # - 整体架构:
-  #     - 系统总览: arch/overview.md
-  #     - RAG 架构: arch/rag.md
-  #     - 多模态输入: arch/multimodal.md
-  #     - 推理引擎优化: arch/inference.md
+  - 功能介绍:
+      - 知识问答: arch/rag.md
+      - 智能摘录: arch/webnote.md
+      - 工具调用: arch/mcp_tools.md
+      - 数学智能体: arch/math.md
   - FAQ: faq.md
+docs_dir: docs
+site_dir: site
+use_directory_urls: false
