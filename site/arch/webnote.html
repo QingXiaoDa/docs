@@ -285,6 +285,8 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+        
+      
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
           
@@ -317,6 +319,8 @@
   
   
   
+    
+  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -325,16 +329,6 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      智能摘录
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="智能摘录">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
   <a href="#_2" class="md-nav__link">
     <span class="md-ellipsis">
       原理介绍
@@ -342,8 +336,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_3" class="md-nav__link">
     <span class="md-ellipsis">
       效果展示
@@ -351,18 +345,13 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_4" class="md-nav__link">
     <span class="md-ellipsis">
       适用场景
     </span>
   </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
@@ -467,6 +456,8 @@
   
   
   
+    
+  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -475,16 +466,6 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      智能摘录
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="智能摘录">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
   <a href="#_2" class="md-nav__link">
     <span class="md-ellipsis">
       原理介绍
@@ -492,8 +473,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_3" class="md-nav__link">
     <span class="md-ellipsis">
       效果展示
@@ -501,18 +482,13 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_4" class="md-nav__link">
     <span class="md-ellipsis">
       适用场景
     </span>
   </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
@@ -532,19 +508,17 @@
 
 
 
-  <h1>智能摘录</h1>
-
-<h2 id="_1">智能摘录</h2>
-<h3 id="_2">原理介绍</h3>
-<p>智能摘录功能是UltraRAG2.0中的算法之一，可以理解成是知识问答的高级演进，它不仅仅是简单的“检索+生成”，更强调 自主的、迭代的、多步骤的推理和探索过程。
+<h1 id="_1">智能摘录</h1>
+<h2 id="_2">原理介绍</h2>
+<p>智能摘录功能是UltraRAG中的算法之一，可以理解成是知识问答的高级演进，它不仅仅是简单的“检索+生成”，更强调 自主的、迭代的、多步骤的推理和探索过程。
 它通常结合了代理式RAG的理念，即LLM作为一个“研究代理”，能够自主地规划、执行、评估并调整其研究策略。和清小搭的主干链路（知识问答）相比，智能摘录有以下几个优势：</p>
-<p>多步推理和动态规划： 这是 智能摘录 最核心的优势。它能将复杂问题分解为多个子问题，并为每个子问题制定检索和分析计划。它可以根据中间结果动态调整后续的检索策略和分析方向，类似人类研究员的思维过程。</p>
+<p>多步推理和动态规划： 这是智能摘录最核心的优势。它能将复杂问题分解为多个子问题，并为每个子问题制定检索和分析计划。它可以根据中间结果动态调整后续的检索策略和分析方向，类似人类研究员的思维过程。</p>
 <p>主动探索和发现： 智能摘录 不仅仅是根据关键词检索，它能主动探索相关概念、寻找潜在的联系、甚至发现新的洞察，超越了简单问答的范畴。</p>
 <p>信息综合与交叉验证： 能够从多个来源获取信息，进行复杂的综合、比较和交叉验证，识别信息中的不一致或冲突，从而提供更全面、更可靠的笔记。</p>
 <p>更高质量的笔记生成： 最终输出的不仅仅是答案，而通常是结构化、多章节的“笔记”。</p>
 <p>智能摘录的主要技术流程是，首先根据用户的问题进行分析，生成一个笔记撰写计划和一个笔记的大纲，然后针对笔记中的每个章节，检索相关信息，并完成章节的撰写，最后结合笔记，生成一个完整的、有深度的答案。下图是一个智能摘录的工作示例。
 <img alt="WebNote链路" src="../assets/imgs/webnote.png" /></p>
-<h3 id="_3">效果展示</h3>
+<h2 id="_3">效果展示</h2>
 <p>为了更加直观的展示清小搭的回答过程，以下给出了一段演示视频。</p>
 <div style="display: flex; gap: 10px;">
   <video width="29%" controls style="flex: 3;">
@@ -558,7 +532,7 @@
   </video>
 </div>
 
-<h3 id="_4">适用场景</h3>
+<h2 id="_4">适用场景</h2>
 <p>智能笔记适用于问题较为开放、宽泛、期望得到系统回复的场景。</p>
 
 

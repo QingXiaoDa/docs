@@ -1,14 +1,21 @@
 site_name: 清小搭技术团队
 theme:
   name: material
+  features:
+    - navigation.expand
 nav:
   - 首页: index.md
-  - 功能介绍:
+  - 学术论文: papers.md
+  - 开源项目: projects.md
+  - 技术介绍:
+      - 检索模型: arch/embedding.md
       - 知识问答: arch/rag.md
       - 智能摘录: arch/webnote.md
-      - 工具调用: arch/mcp_tools.md
-      - 数学智能体: arch/math.md
-  - FAQ: faq.md
+      - 评测体系: arch/rag_eval.md
+      - VisRAG: arch/visrag.md
+      # - 工具调用: arch/mcp_tools.md
+      # - 数学智能体: arch/math.md
+  # - FAQ: faq.md
 docs_dir: docs
 site_dir: site
 use_directory_urls: false
