@@ -10,7 +10,7 @@
       
       
       
-        <link rel="next" href="arch/rag.html">
+        <link rel="next" href="papers.html">
       
       
       <link rel="icon" href="assets/images/favicon.png">
@@ -260,6 +260,50 @@
   
   
   
+    <li class="md-nav__item">
+      <a href="papers.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    学术论文
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="projects.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    开源项目
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
     
     
     
@@ -269,15 +313,17 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
         
           
-          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
             
   
   
   <span class="md-ellipsis">
-    功能介绍
+    技术介绍
     
   </span>
   
@@ -285,12 +331,35 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_2">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
             <span class="md-nav__icon md-icon"></span>
-            功能介绍
+            技术介绍
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="arch/embedding.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    检索模型
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
             
               
                 
@@ -345,12 +414,12 @@
   
   
     <li class="md-nav__item">
-      <a href="arch/mcp_tools.html" class="md-nav__link">
+      <a href="arch/rag_eval.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    工具调用
+    评测体系
     
   </span>
   
@@ -368,12 +437,12 @@
   
   
     <li class="md-nav__item">
-      <a href="arch/math.html" class="md-nav__link">
+      <a href="arch/visrag.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    数学智能体
+    VisRAG
     
   </span>
   
@@ -387,28 +456,6 @@
           </ul>
         </nav>
       
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="faq.html" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    FAQ
-    
-  </span>
-  
-
-      </a>
     </li>
   
 
@@ -467,7 +514,7 @@
 <h2 id="_1">基本介绍</h2>
 <p>“清小塔”是基于最前沿的大模型智能体技术构建的学生智能助手。依托清华大学团队自研的千亿参数大模型，它不仅能够理解你的需求，更能执行复杂任务，成为你在校园中的学习生活伙伴。</p>
 <p>作为你的清华百事通，“清小塔”将为你提供从校园生活小贴士到学术难题的详尽解答。成为你探索校园的指南和顾问。作为你的学习好帮手，“清小塔”将为你提供智能伴学工具箱，帮你全方位提升你的学习效率。“清小塔”还会通过个人成长盘记录你的学习成果和成长轨迹，帮你打造专属的学习档案，让你的每一步进步都清晰可见。</p>
-<p>清小搭的算法服务是基于 <a href="https://github.com/OpenBMB/UltraRAG">UltraRAG</a> 框架开发。基于清华大学的高质量知识库，实现了知识库问答、智能摘录、工具调用和智能体等功能，帮助清华学子解决学习和生活中的问题。截至目前，清小搭的问答正确率已经实现了90+%的问答正确率，帮助清华学子解决了无数校园生活中的问题。为了帮助感兴趣的同学深入了解清小搭，现将清小搭的算法框架做个整体上的介绍。</p>
+<p>清小搭的算法服务是基于 <a href="https://github.com/OpenBMB/UltraRAG">UltraRAG</a> 框架开发。基于清华大学的高质量知识库，实现了知识库问答、智能摘录、工具调用和智能体等功能，帮助清华学子解决学习和生活中的问题。截至目前，清小搭的问答正确率已经实现了90+%的问答正确率，帮助清华学子解决了无数校园生活中的问题。为了帮助感兴趣的同学深入了解清小搭，现将清小搭依赖的算法技术展开系统介绍。</p>
 <p><img alt="清小搭" src="assets/imgs/xiaoda.png" /></p>
 
 
@@ -517,7 +564,7 @@
     
     
       
-      <script id="__config" type="application/json">{"base": ".", "features": [], "search": "assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"base": ".", "features": ["navigation.expand"], "search": "assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
       <script src="assets/javascripts/bundle.50899def.min.js"></script>
