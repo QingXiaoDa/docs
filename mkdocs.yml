@@ -11,8 +11,8 @@ nav:
       - 检索模型: arch/embedding.md
       - 智能摘录: arch/webnote.md
       - 评测体系: arch/rag_eval.md
-      - VisRAG: arch/visrag.md
       - 知识问答: arch/rag.md
+      # - VisRAG: arch/visrag.md
       # - 工具调用: arch/mcp_tools.md
       # - 数学智能体: arch/math.md
   # - FAQ: faq.md
