@@ -1,4 +1,5 @@
-# MiniCPM-Embedding-Light
+# 检索模型：MiniCPM-Embedding-Light
+
 清小搭背后使用到 MiniCPM-Embedding系列的技术。 MiniCPM-Embedding是面壁智能与清华大学自然语言处理实验室（THUNLP）、东北大学信息检索小组（NEUIR）共同开发的中英双语言文本嵌入模型，共计有两个版本，分别是 MiniCPM-Embedding和轻量级版本MiniCPM-Embedding-Light。他们有如下特点：
 
 - 出色的中文、英文检索能力    

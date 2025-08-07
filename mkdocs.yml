@@ -3,19 +3,28 @@ theme:
   name: material
   features:
     - navigation.expand
+    - content.code.annotate
+    - content.tabs.link
+    - content.tooltips
+    - content.action.edit
+    - content.admonitions  # 支持提示框样式
+    - content.code.copy
+extra_css:
+  - stylesheets/extra.css  # 引入自定义样式
+
+plugins:
+  - search
+  - macros
+  
 nav:
   - 首页: index.md
-  - 学术论文: papers.md
-  - 开源项目: projects.md
   - 技术介绍:
       - 检索模型: arch/embedding.md
       - 智能摘录: arch/webnote.md
       - 评测体系: arch/rag_eval.md
       - 知识问答: arch/rag.md
-      # - VisRAG: arch/visrag.md
-      # - 工具调用: arch/mcp_tools.md
-      # - 数学智能体: arch/math.md
-  # - FAQ: faq.md
+  - 学术论文: papers.md
+  - 开源项目: projects.md
 docs_dir: docs
 site_dir: site
 use_directory_urls: false

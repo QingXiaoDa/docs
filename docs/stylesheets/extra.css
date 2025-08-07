@@ -1,0 +1,81 @@
+.paper-row {
+    display: flex;
+    gap: 24px;
+    padding: 24px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .paper-meta {
+    flex: 0 0 160px;
+    color: #555;
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  
+  .paper-tag {
+    font-weight: bold;
+    margin-bottom: 4px;
+  }
+  
+  .paper-date {
+    color: #999;
+  }
+  
+  .paper-content {
+    flex: 1;
+  }
+  
+  .paper-title {
+    font-size: 18px;
+    margin: 0 0 8px 0;
+  }
+  
+  .paper-desc {
+    font-size: 15px;
+    color: #333;
+    margin: 0;
+  }
+  
+  @media (max-width: 600px) {
+    .paper-row {
+      flex-direction: column;
+    }
+  
+    .paper-meta {
+      flex: none;
+      margin-bottom: 8px;
+    }
+  }
+
+  /* 仅对 class 为 .page-wide 的页面生效 */
+body.page-wide .md-main__inner {
+  max-width: 2100px;  /* 可改为更大 */
+}
+
+body.page-wide .md-content {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.paper-card {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  gap: 1.5rem;
+  align-items: start; /* 让内容从顶部对齐 */
+  margin-bottom: 2rem;
+}
+
+.paper-meta {
+  color: #888;
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+.paper-content h3 {
+  margin-top: 0;
+  margin-bottom: 0.3rem;
+}
+
+.paper-content p {
+  margin: 0;
+}

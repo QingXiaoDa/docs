@@ -1,4 +1,4 @@
-# Webnote
+# 智能摘录：WebNote
 
 ## 算法介绍
 

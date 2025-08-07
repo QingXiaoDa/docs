@@ -1,5 +1,4 @@
-
-## RAGEval: Scenario Specific RAG Evaluation Dataset Generation Framework
+# 评测体系：RAGEval
 
 ### 算法背景
 检索增强生成（RAG）系统因能将外部知识整合到大型语言模型（LLMs）中，在医疗、金融、法律等对事实准确性要求极高的领域应用广泛。然而，现有RAG系统存在幻觉问题，主要源于检索过程中的噪声及LLMs对检索信息的利用不充分。

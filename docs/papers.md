@@ -1,32 +1,18 @@
-
-<div style="border: 1px solid #ccc; padding: 1em; border-radius: 8px;">
-  <h3>Rageval: Scenario specific rag evaluation dataset generation framework</h3>
-  <p><strong>作者：</strong> Zhu Kunlun, Luo Yifan, Xu Dingling, Wang Ruobing, Yu Shi, et al. </p>
-  <p><strong>年份：</strong>2024</p>
-  <a href="https://arxiv.org/pdf/2408.01262">论文链接</a>
-</div>
-
-<div style="border: 1px solid #ccc; padding: 1em; border-radius: 8px;">
-  <h3>UltraRAG: A Modular and Automated Toolkit for Adaptive Retrieval-Augmented Generation</h3>
-  <p><strong>作者：</strong> Yuxuan Chen, Dewen Guo, Sen Mei, Xinze Li, Hao Chen, et al. </p>
-  <p><strong>年份：</strong>2025</p>
-  <a href="https://arxiv.org/pdf/2504.08761">论文链接</a>
-</div>
-
-<div style="border: 1px solid #ccc; padding: 1em; border-radius: 8px;">
-  <h3>RAG-DDR: Optimizing Retrieval-Augmented Generation Using Differentiable Data Rewards</h3>
-  <p><strong>作者：</strong> Li Xinze, Mei Sen, Liu Zhenghao, Yan Yukun, Wang Shuo, et al.</p>
-  <p><strong>年份：</strong>2024</p>
-  <a href="https://arxiv.org/pdf/2410.13509">论文链接</a>
-</div>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    document.body.classList.add("page-wide");
+  });
+</script>
 
 
-<div style="border: 1px solid #ccc; padding: 1em; border-radius: 8px;">
-  <h3>Retriever-and-Memory: Towards Adaptive Note-Enhanced Retrieval-Augmented Generation</h3>
-  <p><strong>作者：</strong>Wang Ruobing, Zha Daren, Yu Shi,  Zhao Qingfei, Chen Yuxuan, et al.</p>
-  <p><strong>年份：</strong>2024</p>
-  <a href="https://arxiv.org/pdf/2410.08821v1">论文链接</a>
-</div>
+# 清小搭相关技术论文
 
+以下为清小搭算法服务中使用到的论文列表：
 
+{{ paper("评测", "2025年", "Rageval: Scenario specific rag evaluation dataset generation framework", "Kunlun Zhu and Yifan Luo and Dingling Xu and Ruobing Wang and Shi Yu and Shuo Wang and Yukun Yan and Zhenghao Liu and Xu Han and Zhiyuan Liu and Maosong Sun", "https://arxiv.org/pdf/2408.01262") }}
 
+{{ paper("框架", "2025年", "UltraRAG: A Modular and Automated Toolkit for Adaptive Retrieval-Augmented Generation", "Yuxuan Chen and Dewen Guo and Sen Mei and Xinze Li and Hao Chen and Yishan Li and Yixuan Wang and Chaoyue Tang and Ruobing Wang and Dingjun Wu and Yukun Yan and Zhenghao Liu and Shi Yu and Zhiyuan Liu and Maosong Sun", "https://arxiv.org/pdf/2504.08761") }}
+
+{{ paper("算法", "2024年", "RAG-DDR: Optimizing Retrieval-Augmented Generation Using Differentiable Data Rewards", "Li, Xinze and Mei, Sen and Liu, Zhenghao and Yan, Yukun and Wang, Shuo and Yu, Shi and Zeng, Zheni and Chen, Hao and Ge, Yu and Liu, Zhiyuan and Sun, Maosong and Xiong, Chenyan", "https://arxiv.org/pdf/2410.13509 ") }}
+
+{{ paper("算法", "2024年", "DeepNote: Note‑Centric Deep Retrieval‑Augmented Generation", "Wang, Ruobing and Zhao, Qingfei and Yan, Yukun and Zha, Daren and Chen, Yuxuan and Yu, Shi and Liu, Zhenghao and Wang, Yixuan and Wang, Shuo and Han, Xu and Liu, Zhiyuan and Sun, Maosong", "https://arxiv.org/pdf/2410.08821") }}
