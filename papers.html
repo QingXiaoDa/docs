@@ -9,7 +9,7 @@
       
       
       
-        <link rel="prev" href="index.html">
+        <link rel="prev" href="arch/rag.html">
       
       
         <link rel="next" href="projects.html">
@@ -43,6 +43,8 @@
       
     
     
+      <link rel="stylesheet" href="stylesheets/extra.css">
+    
     <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -60,6 +62,11 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
+      
+        
+        <a href="#_1" class="md-skip">
+          Skip to content
+        </a>
       
     </div>
     <div data-md-component="announce">
@@ -208,58 +215,6 @@
       
   
   
-    
-  
-  
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-      
-      <a href="papers.html" class="md-nav__link md-nav__link--active">
-        
-  
-  
-  <span class="md-ellipsis">
-    学术论文
-    
-  </span>
-  
-
-      </a>
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="projects.html" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    开源项目
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
   
   
     
@@ -273,10 +228,10 @@
         
           
         
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
         
           
-          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
             
   
   
@@ -289,8 +244,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_4">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             技术介绍
           </label>
@@ -395,6 +350,60 @@
   
 
     
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="papers.html" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    学术论文
+    
+  </span>
+  
+
+      </a>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="projects.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    开源项目
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
   </ul>
 </nav>
                   </div>
@@ -412,6 +421,8 @@
   
   
   
+    
+  
   
 </nav>
                   </div>
@@ -427,34 +438,60 @@
 
 
 
-  <h1>学术论文</h1>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    document.body.classList.add("page-wide");
+  });
+</script>
 
-<div style="border: 1px solid #ccc; padding: 1em; border-radius: 8px;">
-  <h3>Rageval: Scenario specific rag evaluation dataset generation framework</h3>
-  <p><strong>作者：</strong> Zhu Kunlun, Luo Yifan, Xu Dingling, Wang Ruobing, Yu Shi, et al. </p>
-  <p><strong>年份：</strong>2024</p>
-  <a href="https://arxiv.org/pdf/2408.01262">论文链接</a>
+<h1 id="_1">清小搭相关技术论文</h1>
+<p>以下为清小搭算法服务中使用到的论文列表：</p>
+<div class="paper-row">
+  <div class="paper-meta">
+    <div class="paper-tag">评测</div>
+    <div class="paper-date">2025年</div>
+  </div>
+  <div class="paper-content">
+    <h3 class="paper-title">Rageval: Scenario specific rag evaluation dataset generation framework</h3>
+    <p class="paper-desc">Kunlun Zhu and Yifan Luo and Dingling Xu and Ruobing Wang and Shi Yu and Shuo Wang and Yukun Yan and Zhenghao Liu and Xu Han and Zhiyuan Liu and Maosong Sun</p>
+    <p><a href="https://arxiv.org/pdf/2408.01262" target="_blank">阅读原文</a></p>
+  </div>
 </div>
 
-<div style="border: 1px solid #ccc; padding: 1em; border-radius: 8px;">
-  <h3>UltraRAG: A Modular and Automated Toolkit for Adaptive Retrieval-Augmented Generation</h3>
-  <p><strong>作者：</strong> Yuxuan Chen, Dewen Guo, Sen Mei, Xinze Li, Hao Chen, et al. </p>
-  <p><strong>年份：</strong>2025</p>
-  <a href="https://arxiv.org/pdf/2504.08761">论文链接</a>
+<div class="paper-row">
+  <div class="paper-meta">
+    <div class="paper-tag">框架</div>
+    <div class="paper-date">2025年</div>
+  </div>
+  <div class="paper-content">
+    <h3 class="paper-title">UltraRAG: A Modular and Automated Toolkit for Adaptive Retrieval-Augmented Generation</h3>
+    <p class="paper-desc">Yuxuan Chen and Dewen Guo and Sen Mei and Xinze Li and Hao Chen and Yishan Li and Yixuan Wang and Chaoyue Tang and Ruobing Wang and Dingjun Wu and Yukun Yan and Zhenghao Liu and Shi Yu and Zhiyuan Liu and Maosong Sun</p>
+    <p><a href="https://arxiv.org/pdf/2504.08761" target="_blank">阅读原文</a></p>
+  </div>
 </div>
 
-<div style="border: 1px solid #ccc; padding: 1em; border-radius: 8px;">
-  <h3>RAG-DDR: Optimizing Retrieval-Augmented Generation Using Differentiable Data Rewards</h3>
-  <p><strong>作者：</strong> Li Xinze, Mei Sen, Liu Zhenghao, Yan Yukun, Wang Shuo, et al.</p>
-  <p><strong>年份：</strong>2024</p>
-  <a href="https://arxiv.org/pdf/2410.13509">论文链接</a>
+<div class="paper-row">
+  <div class="paper-meta">
+    <div class="paper-tag">算法</div>
+    <div class="paper-date">2024年</div>
+  </div>
+  <div class="paper-content">
+    <h3 class="paper-title">RAG-DDR: Optimizing Retrieval-Augmented Generation Using Differentiable Data Rewards</h3>
+    <p class="paper-desc">Li, Xinze and Mei, Sen and Liu, Zhenghao and Yan, Yukun and Wang, Shuo and Yu, Shi and Zeng, Zheni and Chen, Hao and Ge, Yu and Liu, Zhiyuan and Sun, Maosong and Xiong, Chenyan</p>
+    <p><a href="https://arxiv.org/pdf/2410.13509 " target="_blank">阅读原文</a></p>
+  </div>
 </div>
 
-<div style="border: 1px solid #ccc; padding: 1em; border-radius: 8px;">
-  <h3>Retriever-and-Memory: Towards Adaptive Note-Enhanced Retrieval-Augmented Generation</h3>
-  <p><strong>作者：</strong>Wang Ruobing, Zha Daren, Yu Shi,  Zhao Qingfei, Chen Yuxuan, et al.</p>
-  <p><strong>年份：</strong>2024</p>
-  <a href="https://arxiv.org/pdf/2410.08821v1">论文链接</a>
+<div class="paper-row">
+  <div class="paper-meta">
+    <div class="paper-tag">算法</div>
+    <div class="paper-date">2024年</div>
+  </div>
+  <div class="paper-content">
+    <h3 class="paper-title">DeepNote: Note‑Centric Deep Retrieval‑Augmented Generation</h3>
+    <p class="paper-desc">Wang, Ruobing and Zhao, Qingfei and Yan, Yukun and Zha, Daren and Chen, Yuxuan and Yu, Shi and Liu, Zhenghao and Wang, Yixuan and Wang, Shuo and Han, Xu and Liu, Zhiyuan and Sun, Maosong</p>
+    <p><a href="https://arxiv.org/pdf/2410.08821" target="_blank">阅读原文</a></p>
+  </div>
 </div>
 
 
@@ -473,6 +510,8 @@
             </div>
           
           
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
 <script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
         </div>
         
@@ -504,7 +543,7 @@
     
     
       
-      <script id="__config" type="application/json">{"base": ".", "features": ["navigation.expand"], "search": "assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"base": ".", "features": ["navigation.expand", "content.code.annotate", "content.tabs.link", "content.tooltips", "content.action.edit", "content.admonitions", "content.code.copy"], "search": "assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
       <script src="assets/javascripts/bundle.50899def.min.js"></script>
