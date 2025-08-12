@@ -21,7 +21,7 @@ nav:
   - 技术介绍:
       - 检索模型: arch/embedding.md
       - 智能摘录: arch/webnote.md
-      - 评测体系: arch/rag_eval.md
+      - 评测框架: arch/rag_eval.md
       - 知识问答: arch/rag.md
   - 学术论文: papers.md
   - 开源项目: projects.md
